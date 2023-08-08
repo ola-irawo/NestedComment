@@ -22,6 +22,7 @@ const Comment = () => {
       <Button 
       text={"Post comment"}
       handleEvent={postComment}
+      className={"btn-comment"}
       />
     </div>
   )
