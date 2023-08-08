@@ -1,1 +1,1 @@
-A nested comment project using firebase and reacr
+A nested comment project using firebase and react
