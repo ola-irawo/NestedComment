@@ -30,7 +30,7 @@ html {
 
   /* color */
   --background-color: #3331;
-  --text-color: #111;
+  --dark-color: #111;
   --primary-black: #1113;
   --secondary-black: #1115;
   --header-background: #fff;
@@ -129,10 +129,42 @@ div.comment-container {
   margin:2em auto;
   padding: 2em;
   display: grid;
-  gap: .1em;
-  -webkit-gap: .1em;
+  gap: 1em;
+  -webkit-gap: 1em;
 }
 
 .btn-comment{
-  justify-self: flex-start;
+  justify-self: flex-end;
+}
+
+.top-level-comment{
+  padding: .5em;
+  background-color: var(--light-color);
+  margin-top: .5em;
+  /* border: .1em solid var(--dark-color); */
+  border-radius: .2em;
+}
+
+div.comment-item-wrapper{
+  display: grid;
+  gap: .3em;
+  border: .1em solid var(--dark-color);
+  padding: 1em;
+  margin-top: .5em;
+}
+
+.comment-item-wrapper p{
+  padding: 2em;
+}
+
+.comment-item-wrapper textarea{
+  margin-left: 2em;
+  width: 90%;
+}
+
+.comment-item-wrapper button{
+  border-radius: 2em;
+  margin-top: .3em;
+  padding: .4em .8em;
+  justify-self: flex-end;
 }
