@@ -1,11 +1,11 @@
 import logo from "./logo.svg";
 import Button from "./componets/Button";
-import Comment from "./Comment";
+import TopLevelComment from "./TopLevelComment";
 
 function App() {
   return (
     <div>
-      <Comment />
+      <TopLevelComment />
     </div>
   );
 }

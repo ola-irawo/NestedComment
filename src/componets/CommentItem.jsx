@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Button from './Button'
+import CommentTextarea from './CommentTextarea';
   
   const CommentItem = ({comment}) => {
     const [isReply, setIsReply] = useState(false);
@@ -50,4 +51,6 @@ import Button from './Button'
       </div>
     )
   }
+
+  export default CommentItem
   
